@@ -16,7 +16,6 @@ var paths = {
 var tsCompilerConfig = ts.createProject({
     declarationFiles: true,
     noExternalResolve: false,
-    // module: 'AMD',
     removeComments: true,
     target: 'es5'
 });
